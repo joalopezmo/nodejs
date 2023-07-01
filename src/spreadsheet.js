@@ -1,7 +1,7 @@
 const {GoogleSpreadsheet} = require('google-spreadsheet');
 const credentials = require('./json/credencials.json');
 
-let googleId  = "1U0xaiXPV5H3G8as_CcDgYoVQFdavr26_9FzSjJjMwhg"; //id de la hoja de calculo - recordar que el id debe ser publico
+let googleId  = ""; //id de la hoja de calculo - recordar que el id debe ser publico
 
 async function accessSpreadsheetOne(){
     const doc = new GoogleSpreadsheet(googleId); //instanciamos la hoja de calculo
